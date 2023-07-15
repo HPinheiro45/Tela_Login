@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/Css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main id="container">
+        <form id="login-form">
+            <div id="form-header">
+                <h1>PinSociety</h1>
+                <img src="../assets/images/pintchsemfundo.png" width="32" height="32" alt="Pintech Logo">
+            </div>
+
+            <div id="social-media">
+                <a href="#">
+                    <img src="../assets/images/Google.png" alt="Logo Google">
+                </a>
+                <a href="#">
+                    <img src="../assets/images/Instagram.png" alt="Logo Instagram">
+                </a>
+                <a href="#">
+                    <img src="../assets/images/GitHub.png" alt="Logo GitHub">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                            </svg>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                            </svg>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="senha">
+                        Senha
+                        <div class="input-field">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z" />
+                            </svg>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                    <div id="forgot-password">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="btn-login">Login</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
